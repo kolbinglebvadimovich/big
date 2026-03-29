@@ -6,15 +6,15 @@ int main()
     int number;
     int sum = 0;
 
-    cout << "Введите целые числа (для завершения введите 0):" << endl;
+    std::cout << "Введите целые числа (для завершения введите 0):" << std::endl;
 
     do 
     {
-        cin >> number;
+        std::cin >> number; >> std::endl;
         sum += number;
      while (number != 0);
     }
-    cout << "Сумма введённых чисел: " << sum << endl;
+    std::cout << "Сумма введённых чисел: " << sum << std::endl;
 
     return 0;
 }
@@ -25,12 +25,11 @@ while
     int number;
     int sum = 0;
 
-    cout << "Введите целое число: ";
-    cin >> number;
+    std::cout << "Введите целое число: "; << std::endl;
+    std::cin >> number; >> std::endl;
     
     int temp = abs(number);
 
-    // Если ввели 0, сумма цифр тоже 0
     if (temp == 0) 
     {
         sum = 0;
@@ -43,7 +42,7 @@ while
         }
     }
 
-    cout << "Сумма цифр числа " << number << " равна: " << sum << endl;
+    std::cout << "Сумма цифр числа " << number << " равна: " << sum << std::endl;
 
     return 0;
 }
