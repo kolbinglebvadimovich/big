@@ -10,23 +10,24 @@ int main()
 
     do 
     {
-        std::cin >> number; >> std::endl;
+        std::cin >> number; >> 
         sum += number;
-     while (number != 0);
     }
+     while (number != 0);
+    
     std::cout << "Сумма введённых чисел: " << sum << std::endl;
 
     return 0;
 }
 
 
-while 
+
 {
     int number;
     int sum = 0;
 
     std::cout << "Введите целое число: "; << std::endl;
-    std::cin >> number; >> std::endl;
+    std::cin >> number; >> 
     
     int temp = abs(number);
 
@@ -46,12 +47,13 @@ while
 
     return 0;
 }
-while do
+
+
 {
     int number;
 
     std::cout << "Введите целое число для таблицы умножения: " << std::endl;
-    std::cin >> number; >> std::endl;
+    std::cin >> number; >> 
 
     std::cout << "\nТаблица умножения для числа " << number << ":\n"; << std::endl;
     std::cout << "--------------------------------\n"; << std::endl;
